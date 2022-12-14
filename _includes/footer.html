@@ -1,0 +1,33 @@
+{% assign footer = site.data.footer %}
+
+<footer class="usa-footer site-footer" role="contentinfo">
+  <div class="footer-section-bottom bg-base-lighter">
+    <div class="grid-container">
+      <div class="grid-row padding-3">
+        <div class="tablet:grid-col">
+          <div class="logo-links">
+            <a class="footer-logo media_link" href="https://18f.gsa.gov">
+              {% asset gsa-footer-logo.png width="50" alt="GSA logo" %}
+            </a>
+          </div>
+        </div>
+        <div class="tablet:grid-col"></div>
+        <div class="tablet:grid-col">
+          <ul class="add-list-reset">
+            <li><a href="https://www.gsa.gov">GSA.gov</a></li>
+            <li><a href="https://section508.gov">Section508.gov</a></li>
+            <li><a href="https://www.access-board.gov">U.S. Access Board</a></li>
+          </ul>
+        </div>
+        <div class="tablet:grid-col">
+          <ul class="add-list-reset">
+            <li><a href="https://github.com/GSA/openacr">GitHub OpenACR Project</a></li>
+            <li><a href="https://github.com/GSA/openacr/issues">GitHub Issue Queue</a></li>
+            <li><a href="https://gsa.github.io/openacr-editor/">GitHub OpenACR Editor</a></li>
+            <li><a href="{{ site.baseurl }}/accessibility/">Accessibility Statement</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

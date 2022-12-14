@@ -1,0 +1,8 @@
+# This is the official list of project authors for copyright purposes.
+# This file is distinct from the CONTRIBUTORS.txt file.
+# See the latter for an explanation.
+#
+# Names should be added to this file as:
+# Name or Organization <email address>
+Andrew Neilson <andrew.nielson@gsa.gov> (drewnielson)
+Syed Azeem <syed.azeem@gsa.gov> (saz33m)
